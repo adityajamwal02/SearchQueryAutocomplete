@@ -17,7 +17,7 @@ Functionality of designing a search query based autocomplete system - for search
 
 Operation:
 AutoCompleteSystem(["i love you", "island",
-"ironman", "i love geeksforgeeks"], [5,3,2,2])
+"ironman", "i love football"], [5,3,2,2])
 
 The system have already tracked down the 
 following sentences and their corresponding 
@@ -25,27 +25,27 @@ times:
 "i love you" : 5 times 
 "island" : 3 times 
 "ironman" : 2 times 
-"i love geeksforgeeks" : 2 times 
+"i love football" : 2 times 
 
 Now, the user begins another search: 
 
 Operation: input('i') 
 Output: 
 ["i love you", "island","i love 
-                       geeksforgeeks"] 
+                       football"] 
 
 Explanation: 
 There are four sentences that have prefix 
 "i". Among them, "ironman" and "i love 
-geeksforgeeks" have same frequency. Since 
+football" have same frequency. Since 
 ' ' has ASCII code 32 and 'r' has ASCII code
- 114, "i love geeksforgeeks" should be in 
+ 114, "i love football" should be in 
 front of "ironman". Also we only need to 
 output top 3 most frequent sentences, so 
 "ironman" will be ignored. 
 
 Operation: input(' ') 
-Output: ["i love you","i love geeksforgeeks"] 
+Output: ["i love you","i love football"] 
 Explanation: 
 There are only two sentences that have prefix 
 "i ". 
