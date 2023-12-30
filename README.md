@@ -1,4 +1,4 @@
-# SearchQueryAutocomplete
+# **Search Query Autocomplete**
 Functionality of designing a search query based autocomplete system - for search engines. <br>
 
 ### Assumptions:
