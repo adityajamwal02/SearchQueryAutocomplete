@@ -16,13 +16,13 @@ Functionality of designing a search query based autocomplete system - for search
 ### Example:
 
 Operation:
-AutoCompleteSystem(["i love you", "island",
+AutoCompleteSystem(["i love icecream", "island",
 "ironman", "i love football"], [5,3,2,2])
 
 The system have already tracked down the 
 following sentences and their corresponding 
 times: 
-"i love you" : 5 times 
+"i love icecream" : 5 times 
 "island" : 3 times 
 "ironman" : 2 times 
 "i love football" : 2 times 
@@ -31,7 +31,7 @@ Now, the user begins another search:
 
 Operation: input('i') 
 Output: 
-["i love you", "island","i love 
+["i love icecream", "island","i love 
                        football"] 
 
 Explanation: 
@@ -45,7 +45,7 @@ output top 3 most frequent sentences, so
 "ironman" will be ignored. 
 
 Operation: input(' ') 
-Output: ["i love you","i love football"] 
+Output: ["i love icecream","i love football"] 
 Explanation: 
 There are only two sentences that have prefix 
 "i ". 
