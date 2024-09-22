@@ -10,8 +10,10 @@ Functionality of designing a search query based autocomplete system - for search
 • When the input is a special character, it means the sentence ends, and in this case, we will return an empty list. <br>
 
 ### Functionality:
-○ AutoCompleteSystem Methods: Constructor of main class, the input is previously used data. Sentences will be a string array consists of previously typed sentences. Times will be the corresponding times a sentence has been typed. Our system should record these historical sentences. <br>
-○ Input: The input c is the next character typed by the user. The character will only be lower-case letters ('a' to 'z'), blank space (' ') or a special character ('#'). Also, the previously typed sentence should be recorded in our system. The output an array will be the top 3 historical sentences that have prefix the same as the part of sentence already typed. <br>
+
+➡ **AutoCompleteSystem** **Methods**: Constructor of main class, the input is previously used data. Sentences will be a string array consists of previously typed sentences. Times will be the corresponding times a sentence has been typed. Our system should record these historical sentences. <br>
+
+➡ **Input**: The input c is the next character typed by the user. The character will only be lower-case letters ('a' to 'z'), blank space (' ') or a special character ('#'). Also, the previously typed sentence should be recorded in our system. The output an array will be the top 3 historical sentences that have prefix the same as the part of sentence already typed. <br>
 
 ### Example:
 
